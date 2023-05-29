@@ -69,23 +69,19 @@ To run the unit test, direct to the unittest folder and run the python script un
 
 # Problem 3: Integrate ML Training
 
-Task_id= model_training
-
-Python module: tasks/ ML_model_training_polyreg.py
+- Task_id= model_training
+- Python module: tasks/ ML_model_training_polyreg.py
 
 Linear regression model is too restrict in this case. We only have two features, in order to capture the non-linear relationship between the 
-
 features and the target, I chose to use polynomial regression model with the order of 2, The RMSE (root-mean-square-error) is much reduced 
-
 compared to the linear regression.
 
 # Problem 4: Model Serving
 
-I used FastAPI to create the API . To test with the API, direct to the other/API folder in terminal, then:
+I used FastAPI to create the API. To test with the API, direct to the other/API folder in terminal, then:
 
-pip install -r requirements.txt
-
-uvicorn app:app –reload    # start the server
+- pip install -r requirements.txt
+- uvicorn app:app –reload    # start the server
 
 The following screenshot shows the server is running:
 
@@ -97,7 +93,8 @@ The default route also shows the server is running (http://127.0.0.1:8000/)
 
 Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
 
-Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000, the output in the returned json file is 2187456.
+- Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000; 
+- Output in the returned json file is 2187456.
 
 ![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ec33c47f-2de8-4d6d-8aa7-52b19b2ce31b)
 
@@ -105,27 +102,22 @@ Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000, the output 
 
 As mentioned above, there are only two cores running on my laptop. The amount of time takes in each task is:
 
-Download raw data: ~6 minutes
-
-Process raw data: ~15 minutes
-
-Feature engineering: ~10 minutes
-
-Model training: ~2 minutes (polynomial regression model is fast)
+- Download raw data: ~6 minutes
+- Process raw data: ~15 minutes
+- Feature engineering: ~10 minutes
+- Model training: ~1 minutes (polynomial regression model is fast)
 
 # Future Improvements
 
-Increase the computing power, benefits more from parallel processing.
-
-Improve the model prediction. We can work on at least two aspects to improve the model prediction: 1. Model selection, 2. Explore more features 
-
-and more ways of feature construction.
-
-Further streamline the process. The entire process from end to end should roughly include 6 steps:
+1. Increase the computing power, benefits more from parallel processing.
+2. Improve the model prediction. We can work on at least two aspects to improve the model prediction: 
+   - Model selection
+   - Explore more features and more ways of feature construction.
+4. Further streamline the process. The entire process from end to end should roughly include 6 steps:
 
 ![entire_pipeline](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/b960f944-7fc2-43ae-8477-c60d6d1f3182)
 
-We’ve integrated through step 1 to 3, and part of step 4. The next step should be building the entire seamless working stream.
+We’ve integrated through step 1 to 3, and part of step 4. The next improvement could be building the entire seamless working stream.
 
 
 
