@@ -96,7 +96,7 @@ The following screenshot shows the server is running:
 
 The default route also shows the server is running (http://127.0.0.1:8000/)
 
-![default_route](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/b749fc2b-6e77-4d90-ad92-2c2e156409a9)
+![default_route](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/f33fa155-2ebf-4e68-b46b-d1b7862832b9)
 
 Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
 
