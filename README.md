@@ -47,13 +47,10 @@ the running time by 50%. If it can be tested a laptop with more cores, the it wo
 
 # Problem 2: Feature Engineering
 
-Task_id= feature_engineering
+- Task_id= feature_engineering
+- Python module: tasks/ feature_engineering.py
 
-Python module: tasks/ feature_engineering.py
-
-Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing.
-
-Besides, the unit test of the feature engineering function is saved in the other/unnittest folder. It includes six test cases in total:
+Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing.Besides, the unit test of the feature engineering function is saved in the other/unnittest folder. It includes six test cases in total:
 
 Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
 
