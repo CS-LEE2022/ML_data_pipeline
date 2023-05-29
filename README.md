@@ -24,9 +24,8 @@ with DAG(
 
 # Problem 0: Download the Raw Data
 
-Task_id= download_raw_data
-
-Python module: tasks/download_raw_data.py
+>Task_id= download_raw_data
+>Python module: tasks/download_raw_data.py
 
 To fully automate the data pipeline, I used Kaggle API to download the ETF and stocks dataset.
 
