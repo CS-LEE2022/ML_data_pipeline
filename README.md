@@ -53,7 +53,7 @@ compare with the expected values (manually calculated);
 
 To run the unit test, direct to the unittest folder and run the python script unittest_feature_engineering_calc.py. The result shows:
 
-![unitest_result](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/5647cdae-f5a2-41ed-b8e2-136d2c3d0f8b)
+<img width="661" alt="unitest_result" src="https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/eeff4cff-d128-4051-a4fa-9073d300041b">
 
 ### Problem 3: Integrate ML Training
 
@@ -77,7 +77,7 @@ The following screenshot shows the server is running:
 
 The default route also shows the server is running (http://127.0.0.1:8000/)
 
-![default_route](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/f33fa155-2ebf-4e68-b46b-d1b7862832b9)
+![defualt_route](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/4e334dfa-b6f7-4740-9c35-3e8c6e87bfc0)
 
 Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
 
