@@ -68,7 +68,7 @@ compare with the expected values (manually calculated);
 
 To run the unit test, direct to the unittest folder and run the python script unittest_feature_engineering_calc.py. The result shows:
 
-![unitest_result](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/3cb44659-1ecb-45d1-ac4f-97e90c83bf4b)
+![unitest_result](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/5647cdae-f5a2-41ed-b8e2-136d2c3d0f8b)
 
 # Problem 3: Integrate ML Training
 
