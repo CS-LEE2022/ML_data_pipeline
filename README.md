@@ -31,7 +31,7 @@ To fully automate the data pipeline, I used Kaggle API to download the ETF and s
 For the convenience of testing, I post my personal token here which is usually not the good practice. Please free feel to replace with your own 
 API token.
 
-# Problem 1: Raw Data Processing
+### Problem 1: Raw Data Processing
 
 - Task_id= process_raw_data
 - Python module: tasks/ process_raw_data.py
@@ -40,7 +40,7 @@ There is a large amount of data files to process, python multiprocessing package
 
 I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If it can be tested a laptop with more cores, the it would be much beneficiary from multiprocessing.
 
-# Problem 2: Feature Engineering
+### Problem 2: Feature Engineering
 
 - Task_id= feature_engineering
 - Python module: tasks/ feature_engineering.py
@@ -55,7 +55,7 @@ To run the unit test, direct to the unittest folder and run the python script un
 
 ![unitest_result](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/5647cdae-f5a2-41ed-b8e2-136d2c3d0f8b)
 
-# Problem 3: Integrate ML Training
+### Problem 3: Integrate ML Training
 
 - Task_id= model_training
 - Python module: tasks/ ML_model_training_polyreg.py
@@ -64,7 +64,7 @@ Linear regression model is too restrict in this case. We only have two features,
 features and the target, I chose to use polynomial regression model with the order of 2, The RMSE (root-mean-square-error) is much reduced 
 compared to the linear regression.
 
-# Problem 4: Model Serving
+### Problem 4: Model Serving
 
 I used FastAPI to create the API. To test with the API, direct to the other/API folder in terminal, then:
 
