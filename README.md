@@ -33,32 +33,23 @@ API token.
 
 # Problem 1: Raw Data Processing
 
-Task_id= process_raw_data
+- Task_id= process_raw_data
+- Python module: tasks/ process_raw_data.py
 
-Python module: tasks/ process_raw_data.py
+There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I use billiard instead of multiprocessing to implement the multiprocessing. 
 
-There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I use billiard instead of 
-
-multiprocessing to implement the multiprocessing.
-
-I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce 
-
-the running time by 50%. If it can be tested a laptop with more cores, the it would be much beneficiary from multiprocessing.
+I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If it can be tested a laptop with more cores, the it would be much beneficiary from multiprocessing.
 
 # Problem 2: Feature Engineering
 
 - Task_id= feature_engineering
 - Python module: tasks/ feature_engineering.py
 
-Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing.Besides, the unit test of the feature engineering function is saved in the other/unnittest folder. It includes six test cases in total:
+Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing.Besides, the unit test of the feature engineering function is saved in the `other/unnittest` folder. It includes six test cases in total:
 
-Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
-
+- Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
 compare with the expected values (manually calculated);
-
-Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
-
-compare with the expected values (manually calculated);
+- Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then compare with the expected values (manually calculated).
 
 To run the unit test, direct to the unittest folder and run the python script unittest_feature_engineering_calc.py. The result shows:
 
