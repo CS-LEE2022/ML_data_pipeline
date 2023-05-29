@@ -22,8 +22,6 @@ with DAG(
 ) as dag:
 ```
 
-![scheduler](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/d55dae9c-1fa8-40a1-95b3-542733d454ae)
-
 # Problem 0: Download the Raw Data
 
 Task_id= download_raw_data
