@@ -126,7 +126,7 @@ and more ways of feature construction.
 
 Further streamline the process. The entire process from end to end should roughly include 6 steps:
 
-![entire_pipeline](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/78b52b84-f21d-428b-bc3c-4fbca736da8b)
+![entire_pipeline](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/b960f944-7fc2-43ae-8477-c60d6d1f3182)
 
 We’ve integrated through step 1 to 3, and part of step 4. The next step should be building the entire seamless working stream.
 
