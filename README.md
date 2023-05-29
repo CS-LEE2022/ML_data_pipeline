@@ -102,7 +102,7 @@ Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The fo
 
 Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000, the output in the returned json file is 2187456.
 
-![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/7fa7f4be-aeab-4a64-b8c2-86f1bf7210d4)
+![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ec33c47f-2de8-4d6d-8aa7-52b19b2ce31b)
 
 # Performance
 
