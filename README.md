@@ -92,7 +92,7 @@ uvicorn app:app –reload    # start the server
 
 The following screenshot shows the server is running:
 
-![running_server](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/d181cd67-8038-4a18-9c9b-b1c42b071659)
+![running_server](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ca66b833-5934-4601-aa17-08164ac4ef08)
 
 The default route also shows the server is running (http://127.0.0.1:8000/)
 
