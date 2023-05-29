@@ -51,20 +51,20 @@ with DAG(
     schedule_interval=None
 ) as dag:
 
-    # download_raw_data_task = PythonOperator(
-    #     task_id='download_raw_data',
-    #     python_callable=run_download_raw_data,
-    # )
+    download_raw_data_task = PythonOperator(
+        task_id='download_raw_data',
+        python_callable=run_download_raw_data,
+    )
 
-    # process_raw_data_task = PythonOperator(
-    #     task_id='process_raw_data',
-    #     python_callable=run_process_raw_data,
-    # )
+    process_raw_data_task = PythonOperator(
+        task_id='process_raw_data',
+        python_callable=run_process_raw_data,
+    )
 
-    # feature_engineering_task = PythonOperator(
-    #     task_id='feature_engineering',
-    #     python_callable=run_feature_engineering,
-    # )
+    feature_engineering_task = PythonOperator(
+        task_id='feature_engineering',
+        python_callable=run_feature_engineering,
+    )
 
     model_training_task = PythonOperator(
         task_id='model_training',
@@ -72,5 +72,4 @@ with DAG(
     )
     
 
-#download_raw_data_task >> process_raw_data_task >> feature_engineering_task >> 
-model_training_task
+download_raw_data_task >> process_raw_data_task >> feature_engineering_task >> model_training_task
