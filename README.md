@@ -14,6 +14,14 @@ Problem 0-4 is integrated as an automated pipeline in a DAG named ‘ML_data_pip
 
 For the testing purpose, the DAG can be triggered manually, I didn’t any subsequent runs for the DAG yet. The schedule can be easily set up as need in the my_dag.py file.
 
+```
+with DAG(
+    dag_id='ML_data_pipeline_demo',
+    start_date=datetime.now(),
+    schedule_interval=None
+) as dag:
+```
+
 ![scheduler](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/d55dae9c-1fa8-40a1-95b3-542733d454ae)
 
 # Problem 0: Download the Raw Data
