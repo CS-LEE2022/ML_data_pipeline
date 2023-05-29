@@ -75,11 +75,7 @@ The following screenshot shows the server is running:
 
 ![running_server](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ca66b833-5934-4601-aa17-08164ac4ef08)
 
-The default route also shows the server is running (http://127.0.0.1:8000/)
-
-![defualt_route](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/4e334dfa-b6f7-4740-9c35-3e8c6e87bfc0)
-
-Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
+The default route also shows the server is running (http://127.0.0.1:8000/). Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
 
 - Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000; 
 - Output in the returned json file is 2187456.
