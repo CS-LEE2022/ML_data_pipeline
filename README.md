@@ -1,6 +1,6 @@
 # Folder structure
 
-![folder_structure](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/37e79d79-93b5-42d8-a6cd-9896b8ba4090)
+![folder_structure](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/d9fc374f-9c70-48f9-8e11-5eac36cf2fee)
 
 # Instructions to run Airflow with Docker Compose
 
@@ -103,7 +103,7 @@ As mentioned above, there are only two cores running on my laptop. The amount of
    - Explore more features and more ways of feature construction.
 4. Further streamline the process. The entire process from end to end should roughly include 6 steps:
 
-![entire_pipeline](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/b960f944-7fc2-43ae-8477-c60d6d1f3182)
+![entire_pipeline](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/523c8fbe-4b66-41d3-b297-4c541c3d76e5)
 
 We’ve integrated through step 1 to 3, and part of step 4. The next improvement could be building the entire seamless working stream.
 
