@@ -109,9 +109,8 @@ We’ve integrated through step 1 to 3, and part of step 4. The next improvement
 
 # Reference
 
-https://github.com/apache/airflow/discussions/25606
-
-https://github.com/apache/airflow/discussions/25606
+- https://github.com/apache/airflow/discussions/25606
+- https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb
 
 
 
