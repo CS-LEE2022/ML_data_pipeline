@@ -1,5 +1,4 @@
 # Folder structure
 
-![Alt text](images/folder_structure.jpg
-?raw=true "Optional Title")
+![Folder structure](images/images/folder_structure.jpg?raw=true "Optional Title")
 
