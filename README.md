@@ -1,6 +1,6 @@
 # Folder structure
 
-![folder_structure](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/d9fc374f-9c70-48f9-8e11-5eac36cf2fee)
+![folder_structure](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/31ab3cd7-200b-4294-8dbb-bf64d04e39ce)
 
 # Instructions to run Airflow with Docker Compose
 
