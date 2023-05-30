@@ -6,7 +6,7 @@
 
 - Direct to the project folder
 - `docker compose up -d`  # running airflow and required components as single service 
-- Open Airflow UI (localhost:8080/home) after a short period of time (~1 minute), user name and password are both `airflow`. Dag id = `ML_data_pipeline_demo` should be deployed, track the dag running as needed 
+- Open Airflow UI (http://localhost:8080/home) after a short period of time (~1 minute), user name and password are both `airflow`. Dag id = `ML_data_pipeline_demo` should be deployed, track the dag running as needed 
 - `docker compose down`  # to stop and remove containers/volumes/networks images
 
 # Thoughts Behinds Each Problem
