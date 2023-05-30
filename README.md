@@ -28,7 +28,7 @@ with DAG(
 ### Problem 0: Download the Raw Data
 
 - Task_id = `download_raw_data`
-- Python module: `tasks/download_raw_data.py`
+- Python module = `tasks/download_raw_data.py`
 
 To fully automate the data pipeline, I used Kaggle API to download the ETF and stocks dataset.
 For the convenience of testing, I post my personal token here which is usually not the good practice. Please free feel to replace with your own 
@@ -36,36 +36,41 @@ API token.
 
 ### Problem 1: Raw Data Processing
 
-- Task_id = process_raw_data
-- Python module: tasks/ process_raw_data.py
+- Task_id = `process_raw_data`
+- Python module = `tasks/ process_raw_data.py`
 
-There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I use billiard instead of multiprocessing to implement the multiprocessing. 
+There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I used billiard instead of multiprocessing to implement the multiprocessing (reference 1). 
 
-I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If it can be tested a laptop with more cores, the it would be much beneficiary from multiprocessing.
+I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If the DAG can be tested on a computing resouce with more cores, the it would be much beneficiary from multiprocessing.
 
 ### Problem 2: Feature Engineering
 
-- Task_id= feature_engineering
-- Python module: tasks/ feature_engineering.py
+- Task_id = `feature_engineering`
+- Python module: `tasks/ feature_engineering.py`
 
-Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing.Besides, the unit test of the feature engineering function is saved in the `other/unnittest` folder. It includes six test cases in total:
+Similarly, I implemented multiprocessing by billiard in this task. Two cores can be running parallelly in my testing. Besides, the unit test of the feature engineering function is saved in the `other/unnittest` folder. It includes six test cases in total:
 
-- Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
-compare with the expected values (manually calculated);
-- Three tests for the volume moving average calculation. I chose a random stock, chose the first, last and NA values from the result, and then compare with the expected values (manually calculated).
+- Three tests for the `vol_moving_avg` calculation. I chose a random stock, chose the first, last and NA values from the result, and then 
+compared with the expected values (manually calculated);
+- Three tests for the `adj_close_rolling_med` calculation. I chose a random stock, chose the first, last and NA values from the result, and then compared with the expected values (manually calculated).
 
-To run the unit test, direct to the unittest folder and run the python script unittest_feature_engineering_calc.py. The result shows:
+To run the unit test, direct to the unittest folder and run the python script `unittest_feature_engineering_calc.py`. The result shows:
 
 <img width="661" alt="unitest_result" src="https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/eeff4cff-d128-4051-a4fa-9073d300041b">
 
 ### Problem 3: Integrate ML Training
 
-- Task_id= model_training
-- Python module: tasks/ ML_model_training_polyreg.py
+- Task_id = `model_training`
+- Python module = `tasks/ ML_model_training_polyreg.py`
 
-Linear regression model is too restrict in this case. We only have two features, in order to capture the non-linear relationship between the 
-features and the target, I chose to use polynomial regression model with the order of 2, The RMSE (root-mean-square-error) is much reduced 
+Linear regression model is too restricted in this case. We only have two features, in order to capture the non-linear relationship between the 
+features and the target, I chose to use polynomial regression model with the order of 2, The RMSE (Root-Mean-Square-Error) is much reduced 
 compared to the linear regression.
+
+The resulting model is saved as `/data/trained_model/ml_model.pkl`.
+
+The training metrics (RMSE) is appended to `/data/trained_model/model_training_log.pkl`. Any other metrics, loss or error values can be easily added to this log file.
+
 
 ### Problem 4: Model Serving
 
