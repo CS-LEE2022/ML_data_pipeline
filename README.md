@@ -39,7 +39,7 @@ API token.
 - Task_id = `process_raw_data`
 - Python module = `tasks/ process_raw_data.py`
 
-There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I used billiard instead of multiprocessing to implement the multiprocessing (reference 1). 
+There are 8048 data files to process, python multiprocessing package does not work on airflow, so I used billiard instead of multiprocessing to implement the multiprocessing (reference 1). 
 
 I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If the DAG can be tested on a computing resouce with more cores, the it would be much beneficiary from multiprocessing.
 
@@ -99,8 +99,8 @@ In details, the running time of each task is as below:
 
 - Download raw data:    6 Min 16 Sec
 - Process raw data:    14 Min 30 Sec (multiprocessing with 2 cores)
-- Feature engineering:  7 Min  9 Sec(multiprocessing with 2 cores)
-- Model training:       1 Min 57 Sec
+- Feature engineering:  7 Min  9 Sec (multiprocessing with 2 cores)
+- Model training:       1 Min 57 Sec (polynomial regression is fast)
 
 The detailed logs can be found in the `/logs/dag_id=ML_data_pipeline_demo/` folder.  
 
