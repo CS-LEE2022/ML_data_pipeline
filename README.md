@@ -69,41 +69,45 @@ compared to the linear regression.
 
 The resulting model is saved as `/data/trained_model/ml_model.pkl`.
 
-The training metrics (RMSE) is appended to `/data/trained_model/model_training_log.pkl`. Any other metrics, loss or error values can be easily added to this log file.
+The training metrics (RMSE) is appended to the log file `/data/trained_model/model_training_log.pkl`. Any other metrics, loss or error values can be easily added.
 
 
 ### Problem 4: Model Serving
 
-I used FastAPI to create the API. To test with the API, direct to the other/API folder in terminal, then:
+I used FastAPI to create the API. To test with the API, direct to the `/other/API` folder in terminal, then:
 
-- pip install -r requirements.txt
-- uvicorn app:app –reload    # start the server
+- `pip install -r requirements.txt`
+- `uvicorn app:app –reload`    # start the server
 
 The following screenshot shows the server is running:
 
 ![running_server](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ca66b833-5934-4601-aa17-08164ac4ef08)
 
-The default route also shows the server is running (http://127.0.0.1:8000/). Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is an example.
+The default route is another place to show the server is running (http://127.0.0.1:8000/). Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is a dummy example.
 
-- Input in the text_message is vol_moving_avg=10&vol_moving_avg=20000; 
-- Output in the returned json file is 2187456.
+- Input in the text_message is `vol_moving_avg=10&vol_moving_avg=20000`
+- The output in the returned json file is 2187456
 
 ![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ec33c47f-2de8-4d6d-8aa7-52b19b2ce31b)
 
-# Performance
+# Performance of the DAG (problem 0-3)
 
-As mentioned above, there are only two cores running on my laptop. The amount of time takes in each task is:
+As mentioned above, there are only two cores running on my laptop. The total amount of time to run the DAG is about 30 minutes. The running performance will be much reduced with more cores in data processing and feature engineering. 
 
-- Download raw data: ~6 minutes
-- Process raw data: ~15 minutes
-- Feature engineering: ~10 minutes
-- Model training: ~1 minutes (polynomial regression model is fast)
+In details, the running time of each task is as below:
+
+- Download raw data:    ~6 Min
+- Process raw data:    ~15 Min (multiprocessing with 2 cores)
+- Feature engineering:  ~7 Min (multiprocessing with 2 cores)
+- Model training:       ~2 Min 
+
+The detailed logs can be found in the `/logs/dag_id=ML_data_pipeline_demo/` folder.
 
 # Future Improvements
 
-1. Increase the computing power, benefits more from parallel processing.
+1. Increase the computing cores, so that the pipeline can fully benefit from parallel processing.
 2. Improve the model prediction. We can work on at least two aspects to improve the model prediction: 
-   - Model selection
+   - Model selection.
    - Explore more features and more ways of feature construction.
 4. Further streamline the process. The entire process from end to end should roughly include 6 steps:
 
