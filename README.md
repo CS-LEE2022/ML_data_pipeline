@@ -1,6 +1,6 @@
 # Folder structure
 
-ML_data_pipeline
+.
 ├── README.md             # instruction/documentation
 ├── docker-compose.yml    # set up airflow envir and required components
 ├── Dockerfile            # additional instructions to build a Docker image 
