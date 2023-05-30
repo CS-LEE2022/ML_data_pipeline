@@ -102,8 +102,6 @@ In details, the running time of each task is as below:
 - Feature engineering:  ~7 Min (multiprocessing with 2 cores)
 - Model training:       ~2 Min 
 
-The detailed logs can be found in the `/logs/dag_id=ML_data_pipeline_demo/` folder.
-
 # Future Improvements
 
 1. Increase the computing cores, so that the pipeline can fully benefit from parallel processing.
