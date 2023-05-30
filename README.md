@@ -97,10 +97,12 @@ As mentioned above, there are only two cores running on my laptop. The total amo
 
 In details, the running time of each task is as below:
 
-- Download raw data:    ~6 Min
-- Process raw data:    ~15 Min (multiprocessing with 2 cores)
-- Feature engineering:  ~7 Min (multiprocessing with 2 cores)
-- Model training:       ~2 Min 
+- Download raw data:    6 Min 16 Sec
+- Process raw data:    14 Min 30 Sec (multiprocessing with 2 cores)
+- Feature engineering:  7 Min  9 Sec(multiprocessing with 2 cores)
+- Model training:       1 Min 57 Sec
+
+The detailed logs can be found in the `/logs/dag_id=ML_data_pipeline_demo/` folder.  
 
 # Future Improvements
 
