@@ -87,9 +87,9 @@ The following screenshot shows the server is running:
 The default route is another place to show the server is running (http://127.0.0.1:8000/). Finally, we can test the model API in the URL http://127.0.0.1:8000/docs. The following screenshot is a dummy example.
 
 - Input in the text_message is `vol_moving_avg=10&vol_moving_avg=20000`
-- The output in the returned json file is 2187456
+- The output in the returned json file is 860176.19
 
-![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/ec33c47f-2de8-4d6d-8aa7-52b19b2ce31b)
+![fast_api_ui](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/da11ffc0-00a1-402d-ac5d-ca269195cbaf)
 
 # Performance of the DAG (problem 0-3)
 
