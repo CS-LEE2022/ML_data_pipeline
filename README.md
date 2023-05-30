@@ -4,15 +4,18 @@
 
 # Instructions to run Airflow with Docker Compose
 
-docker compose up -d  # running airflow and required components as single service open Airflow UI, localhost:8080/home, user name and password are both ‘airflow’ Dag id = ML_data_pipeline_demo should be deployed, track the dag running as needed docker compose down # to stop and remove containers/volumes/networks images
+- Direct to the project folder
+- `docker compose up -d`  # running airflow and required components as single service 
+- Open Airflow UI (localhost:8080/home) after a short period of time (~1 minute), user name and password are both ‘airflow’. Dag id = `ML_data_pipeline_demo` should be deployed, track the dag running as needed 
+- `docker compose down`  # to stop and remove containers/volumes/networks images
 
 # Thoughts behinds each problem
 
-Problem 0-4 is integrated as an automated pipeline in a DAG named ‘ML_data_pipeline_demo’. I defined them as four sequential tasks in my_dag.py.
+Problem 0-4 is integrated as an automated pipeline in a DAG named `ML_data_pipeline_demo`. I defined them as four sequential tasks in my_dag.py.
 
 ![dag_tasks](https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/7c4ad405-5891-4acf-9a69-460eaa209554)
 
-For the testing purpose, the DAG can be triggered manually, I didn’t any subsequent runs for the DAG yet. The schedule can be easily set up as need in the my_dag.py file.
+For the testing purpose, the DAG can be triggered manually, I didn’t set up any subsequent runs for the DAG yet. The schedule can be easily set up as needed in the my_dag.py file.
 
 ```
 with DAG(
@@ -22,10 +25,10 @@ with DAG(
 ) as dag:
 ```
 
-# Problem 0: Download the Raw Data
+### Problem 0: Download the Raw Data
 
-- Task_id= download_raw_data
-- Python module: tasks/download_raw_data.py
+- Task_id = `download_raw_data`
+- Python module: `tasks/download_raw_data.py`
 
 To fully automate the data pipeline, I used Kaggle API to download the ETF and stocks dataset.
 For the convenience of testing, I post my personal token here which is usually not the good practice. Please free feel to replace with your own 
@@ -33,7 +36,7 @@ API token.
 
 ### Problem 1: Raw Data Processing
 
-- Task_id= process_raw_data
+- Task_id = process_raw_data
 - Python module: tasks/ process_raw_data.py
 
 There is a large amount of data files to process, python multiprocessing package does not work on airflow, so I use billiard instead of multiprocessing to implement the multiprocessing. 
