@@ -68,6 +68,8 @@ def process_function(filename, meta_file):
     pq.write_to_dataset(table , 
                         root_path=f'{base_path}/processed.parquet',
                         partition_filename_cb=lambda i: fn)
+    del table
+    del df_temp
 
 
 def process_raw_data():
@@ -81,7 +83,7 @@ def process_raw_data():
     pool = multiprocessing.Pool(processes=num_processes)
 
     # Apply the process_function to each data element using multiprocessing
-    pool.starmap(process_function, [(file, meta_file) for file in files[:1000]])  # 100 files: 5.47s
+    pool.starmap(process_function, [(file, meta_file) for file in files])  # 100 files: 5.47s
     #pool.map(process_function, files[:100]) # 100 files: 5.48s
 
     # Close the multiprocessing pool

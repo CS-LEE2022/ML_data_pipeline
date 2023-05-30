@@ -36,12 +36,28 @@ def define_schema(schema_type):
         ])
     
     if schema_type == 'raw_data_processing':
+        schema = pa.schema([
+                pa.field('Symbol',       pa.string()),
+                pa.field('Security Name', pa.string()),
+                pa.field('Date', pa.date32()),
+                pa.field('Open', pa.float64()),
+                pa.field('High', pa.float64()),
+                pa.field('Low',  pa.float64()),
+                pa.field('Close',pa.float64()),
+                pa.field('Adj Close', pa.float64()),
+                pa.field('Volume',    pa.float64()) 
+                ])
         return schema
     
     elif schema_type == 'feature_engineering':
-        feature_schema = schema.append(pa.field('vol_moving_avg',pa.float64())
-                              ).append(pa.field('adj_close_rolling_med', pa.float64()))
-        return feature_schema
+        schema = pa.schema([
+                pa.field('Symbol',       pa.string()),
+                pa.field('Date', pa.date32()),
+                pa.field('Volume',    pa.float64()),
+                pa.field('vol_moving_avg',pa.float64()),
+                pa.field('adj_close_rolling_med', pa.float64())
+                ])
+        return schema
     else:
         print("Valid schema type is raw_data_processing or feature_engineering")
         return None
@@ -49,12 +65,10 @@ def define_schema(schema_type):
 def feature_engineering_function(filename):
     
     # read stock/etf/meta files
-    df_temp = pd.read_parquet(filename).sort_values('Date')
+    df_temp = pd.read_parquet(filename, columns=['Symbol', 'Date', 'Volume', 'Adj Close']).sort_values('Date')
     df_temp['vol_moving_avg'] = df_temp['Volume'].rolling(30).mean()
     df_temp['adj_close_rolling_med'] = df_temp['Adj Close'].rolling(30).mean()
-    
-    meta_cols = ['Symbol', 'Security Name']
-    final_cols = meta_cols + [x for x in list(df_temp.columns) if x != 'Symbol']
+    df_temp = df_temp[['Symbol', 'Date', 'Volume', 'vol_moving_avg','adj_close_rolling_med']]
 
     feature_schema = define_schema('feature_engineering')
     symb = re.split('/|\.', filename)[-2]
@@ -65,6 +79,8 @@ def feature_engineering_function(filename):
     pq.write_to_dataset(table , 
                         root_path=f'{base_path}/feature_engineering.parquet',
                         partition_filename_cb=lambda i: fn)
+    del table
+    del df_temp
 
 
 def feature_engineering():

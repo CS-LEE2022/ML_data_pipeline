@@ -42,6 +42,7 @@ def ML_model_training_polyreg(data, feature, target, model_filename):
     return poly_reg_rmse
 
 def ML_model_training():
+
     data = pd.read_parquet(f'{base_path}/feature_engineering.parquet')
     data_avg = data.groupby('Date')[['vol_moving_avg', 'adj_close_rolling_med', 'Volume']].mean()
 
@@ -59,7 +60,7 @@ def ML_model_training():
 
     # write to log file
     ts = str(datetime.now())
-    log_string = 'Timestamp: {:s},  RMSE: {:.2f}. '.format(ts, poly_reg_rmse)
+    log_string = 'Timestamp: {:s},  RMSE: {:.2f}. \n'.format(ts, poly_reg_rmse)
     with open(f'{model_path}/model_training_log.txt', mode='a') as log_file:
         log_file.write(log_string)
 

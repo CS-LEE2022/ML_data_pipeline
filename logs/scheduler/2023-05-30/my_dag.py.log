@@ -1,0 +1,516 @@
+[2023-05-30 01:09:28,565] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:09:28,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:09:28,571] {logging_mixin.py:115} INFO - [2023-05-30 01:09:28,571] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:09:29,255] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:09:30,015] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:09:30,210] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,210] {manager.py:508} INFO - Created Permission View: can read on DAG:ML_data_pipeline_demo
+[2023-05-30 01:09:30,229] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,229] {manager.py:508} INFO - Created Permission View: can edit on DAG:ML_data_pipeline_demo
+[2023-05-30 01:09:30,256] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,256] {manager.py:508} INFO - Created Permission View: can delete on DAG:ML_data_pipeline_demo
+[2023-05-30 01:09:30,259] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,258] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:09:30,329] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,329] {dag.py:2390} INFO - Creating ORM DAG for ML_data_pipeline_demo
+[2023-05-30 01:09:30,393] {logging_mixin.py:115} INFO - [2023-05-30 01:09:30,393] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:09:30,441] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.921 seconds
+[2023-05-30 01:10:00,789] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:00,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:10:00,794] {logging_mixin.py:115} INFO - [2023-05-30 01:10:00,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:01,489] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:10:01,940] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:02,028] {logging_mixin.py:115} INFO - [2023-05-30 01:10:02,028] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:10:02,056] {logging_mixin.py:115} INFO - [2023-05-30 01:10:02,056] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:10:02,079] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.307 seconds
+[2023-05-30 01:10:32,377] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:32,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:10:32,380] {logging_mixin.py:115} INFO - [2023-05-30 01:10:32,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:32,851] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:10:33,265] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:10:33,346] {logging_mixin.py:115} INFO - [2023-05-30 01:10:33,346] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:10:33,380] {logging_mixin.py:115} INFO - [2023-05-30 01:10:33,379] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:10:33,400] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.028 seconds
+[2023-05-30 01:11:03,640] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:03,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:11:03,644] {logging_mixin.py:115} INFO - [2023-05-30 01:11:03,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:04,127] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:11:04,552] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:04,631] {logging_mixin.py:115} INFO - [2023-05-30 01:11:04,630] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:11:04,663] {logging_mixin.py:115} INFO - [2023-05-30 01:11:04,662] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:11:04,685] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.054 seconds
+[2023-05-30 01:11:35,815] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:35,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:11:35,822] {logging_mixin.py:115} INFO - [2023-05-30 01:11:35,822] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:36,333] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:11:36,739] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:11:36,826] {logging_mixin.py:115} INFO - [2023-05-30 01:11:36,825] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:11:36,852] {logging_mixin.py:115} INFO - [2023-05-30 01:11:36,852] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:11:36,875] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.069 seconds
+[2023-05-30 01:12:07,131] {processor.py:153} INFO - Started process (PID=283) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:07,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:12:07,157] {logging_mixin.py:115} INFO - [2023-05-30 01:12:07,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:09,887] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:12:13,002] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:13,768] {logging_mixin.py:115} INFO - [2023-05-30 01:12:13,763] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:12:14,020] {logging_mixin.py:115} INFO - [2023-05-30 01:12:14,019] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:12:14,156] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 7.039 seconds
+[2023-05-30 01:12:44,697] {processor.py:153} INFO - Started process (PID=299) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:44,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:12:44,713] {logging_mixin.py:115} INFO - [2023-05-30 01:12:44,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:45,883] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:12:47,095] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:12:47,325] {logging_mixin.py:115} INFO - [2023-05-30 01:12:47,323] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:12:47,399] {logging_mixin.py:115} INFO - [2023-05-30 01:12:47,399] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:12:47,443] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 2.790 seconds
+[2023-05-30 01:13:17,980] {processor.py:153} INFO - Started process (PID=315) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:17,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:13:17,986] {logging_mixin.py:115} INFO - [2023-05-30 01:13:17,986] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:19,802] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:13:21,439] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:21,767] {logging_mixin.py:115} INFO - [2023-05-30 01:13:21,766] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:13:21,844] {logging_mixin.py:115} INFO - [2023-05-30 01:13:21,844] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:13:21,904] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.934 seconds
+[2023-05-30 01:13:52,361] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:52,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:13:52,371] {logging_mixin.py:115} INFO - [2023-05-30 01:13:52,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:54,423] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:13:55,661] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:13:55,802] {logging_mixin.py:115} INFO - [2023-05-30 01:13:55,801] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:13:55,858] {logging_mixin.py:115} INFO - [2023-05-30 01:13:55,858] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:13:55,895] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.565 seconds
+[2023-05-30 01:14:26,200] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:14:26,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:14:26,221] {logging_mixin.py:115} INFO - [2023-05-30 01:14:26,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:14:28,362] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:14:29,916] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:14:30,432] {logging_mixin.py:115} INFO - [2023-05-30 01:14:30,428] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:14:30,527] {logging_mixin.py:115} INFO - [2023-05-30 01:14:30,527] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:14:30,579] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.418 seconds
+[2023-05-30 01:15:01,313] {processor.py:153} INFO - Started process (PID=363) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:01,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:15:01,327] {logging_mixin.py:115} INFO - [2023-05-30 01:15:01,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:04,191] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:15:05,739] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:06,094] {logging_mixin.py:115} INFO - [2023-05-30 01:15:06,092] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:15:06,208] {logging_mixin.py:115} INFO - [2023-05-30 01:15:06,208] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:15:06,278] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.977 seconds
+[2023-05-30 01:15:37,342] {processor.py:153} INFO - Started process (PID=379) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:37,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:15:37,361] {logging_mixin.py:115} INFO - [2023-05-30 01:15:37,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:39,712] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:15:41,929] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:15:42,300] {logging_mixin.py:115} INFO - [2023-05-30 01:15:42,297] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:15:42,454] {logging_mixin.py:115} INFO - [2023-05-30 01:15:42,454] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:15:42,512] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.181 seconds
+[2023-05-30 01:16:12,942] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:12,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:16:12,950] {logging_mixin.py:115} INFO - [2023-05-30 01:16:12,950] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:16,376] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:16:18,079] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:18,385] {logging_mixin.py:115} INFO - [2023-05-30 01:16:18,381] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:16:18,470] {logging_mixin.py:115} INFO - [2023-05-30 01:16:18,469] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:16:18,513] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.578 seconds
+[2023-05-30 01:16:48,858] {processor.py:153} INFO - Started process (PID=411) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:48,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:16:48,876] {logging_mixin.py:115} INFO - [2023-05-30 01:16:48,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:57,131] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:16:58,100] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:16:58,227] {logging_mixin.py:115} INFO - [2023-05-30 01:16:58,226] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:16:58,272] {logging_mixin.py:115} INFO - [2023-05-30 01:16:58,272] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:16:58,302] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 9.451 seconds
+[2023-05-30 01:17:28,593] {processor.py:153} INFO - Started process (PID=427) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:17:28,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:17:28,601] {logging_mixin.py:115} INFO - [2023-05-30 01:17:28,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:17:30,806] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:17:31,849] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:17:32,061] {logging_mixin.py:115} INFO - [2023-05-30 01:17:32,060] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:17:32,167] {logging_mixin.py:115} INFO - [2023-05-30 01:17:32,166] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:17:32,200] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.647 seconds
+[2023-05-30 01:18:02,477] {processor.py:153} INFO - Started process (PID=443) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:02,481] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:18:02,484] {logging_mixin.py:115} INFO - [2023-05-30 01:18:02,484] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:04,498] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:18:06,123] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:06,386] {logging_mixin.py:115} INFO - [2023-05-30 01:18:06,386] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:18:06,439] {logging_mixin.py:115} INFO - [2023-05-30 01:18:06,438] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:18:06,471] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.003 seconds
+[2023-05-30 01:18:36,757] {processor.py:153} INFO - Started process (PID=843) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:36,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:18:36,766] {logging_mixin.py:115} INFO - [2023-05-30 01:18:36,766] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:38,724] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:18:40,609] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:18:40,939] {logging_mixin.py:115} INFO - [2023-05-30 01:18:40,938] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:18:41,042] {logging_mixin.py:115} INFO - [2023-05-30 01:18:41,041] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:18:41,083] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.349 seconds
+[2023-05-30 01:19:11,434] {processor.py:153} INFO - Started process (PID=1369) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:11,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:19:11,442] {logging_mixin.py:115} INFO - [2023-05-30 01:19:11,442] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:13,448] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:19:15,262] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:15,668] {logging_mixin.py:115} INFO - [2023-05-30 01:19:15,656] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:19:15,929] {logging_mixin.py:115} INFO - [2023-05-30 01:19:15,929] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:19:16,012] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.583 seconds
+[2023-05-30 01:19:46,614] {processor.py:153} INFO - Started process (PID=1905) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:46,617] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:19:46,622] {logging_mixin.py:115} INFO - [2023-05-30 01:19:46,621] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:48,474] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:19:50,093] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:19:50,381] {logging_mixin.py:115} INFO - [2023-05-30 01:19:50,380] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:19:50,421] {logging_mixin.py:115} INFO - [2023-05-30 01:19:50,421] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:19:50,444] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.861 seconds
+[2023-05-30 01:20:20,715] {processor.py:153} INFO - Started process (PID=2457) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:20:20,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:20:20,720] {logging_mixin.py:115} INFO - [2023-05-30 01:20:20,720] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:20:22,811] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:20:24,982] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:20:25,469] {logging_mixin.py:115} INFO - [2023-05-30 01:20:25,468] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:20:25,618] {logging_mixin.py:115} INFO - [2023-05-30 01:20:25,618] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:20:25,660] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.949 seconds
+[2023-05-30 01:20:56,059] {processor.py:153} INFO - Started process (PID=3017) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:20:56,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:20:56,065] {logging_mixin.py:115} INFO - [2023-05-30 01:20:56,065] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:20:58,618] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:21:00,594] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:21:00,974] {logging_mixin.py:115} INFO - [2023-05-30 01:21:00,974] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:21:01,051] {logging_mixin.py:115} INFO - [2023-05-30 01:21:01,050] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:21:01,099] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.081 seconds
+[2023-05-30 01:21:31,466] {processor.py:153} INFO - Started process (PID=3561) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:21:31,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:21:31,471] {logging_mixin.py:115} INFO - [2023-05-30 01:21:31,470] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:21:33,449] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:21:35,091] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:21:35,296] {logging_mixin.py:115} INFO - [2023-05-30 01:21:35,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:21:35,358] {logging_mixin.py:115} INFO - [2023-05-30 01:21:35,357] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:21:35,416] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.961 seconds
+[2023-05-30 01:22:05,715] {processor.py:153} INFO - Started process (PID=4097) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:05,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:22:05,723] {logging_mixin.py:115} INFO - [2023-05-30 01:22:05,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:07,656] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:22:09,466] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:09,648] {logging_mixin.py:115} INFO - [2023-05-30 01:22:09,647] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:22:09,703] {logging_mixin.py:115} INFO - [2023-05-30 01:22:09,703] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:22:09,747] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.039 seconds
+[2023-05-30 01:22:40,152] {processor.py:153} INFO - Started process (PID=4607) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:40,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:22:40,173] {logging_mixin.py:115} INFO - [2023-05-30 01:22:40,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:42,902] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:22:44,662] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:22:45,093] {logging_mixin.py:115} INFO - [2023-05-30 01:22:45,092] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:22:45,138] {logging_mixin.py:115} INFO - [2023-05-30 01:22:45,138] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:22:45,172] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.071 seconds
+[2023-05-30 01:23:15,511] {processor.py:153} INFO - Started process (PID=5153) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:15,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:23:15,525] {logging_mixin.py:115} INFO - [2023-05-30 01:23:15,525] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:17,250] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:23:19,347] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:19,667] {logging_mixin.py:115} INFO - [2023-05-30 01:23:19,665] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:23:19,735] {logging_mixin.py:115} INFO - [2023-05-30 01:23:19,734] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:23:19,770] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.285 seconds
+[2023-05-30 01:23:50,216] {processor.py:153} INFO - Started process (PID=5691) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:50,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:23:50,229] {logging_mixin.py:115} INFO - [2023-05-30 01:23:50,227] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:52,637] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:23:54,518] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:23:54,830] {logging_mixin.py:115} INFO - [2023-05-30 01:23:54,830] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:23:54,935] {logging_mixin.py:115} INFO - [2023-05-30 01:23:54,934] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:23:54,981] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.783 seconds
+[2023-05-30 01:24:25,332] {processor.py:153} INFO - Started process (PID=6237) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:24:25,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:24:25,342] {logging_mixin.py:115} INFO - [2023-05-30 01:24:25,342] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:24:27,880] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:24:29,400] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:24:29,714] {logging_mixin.py:115} INFO - [2023-05-30 01:24:29,714] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:24:29,831] {logging_mixin.py:115} INFO - [2023-05-30 01:24:29,831] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:24:29,907] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.641 seconds
+[2023-05-30 01:25:00,288] {processor.py:153} INFO - Started process (PID=6773) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:00,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:25:00,293] {logging_mixin.py:115} INFO - [2023-05-30 01:25:00,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:01,997] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:25:03,656] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:04,028] {logging_mixin.py:115} INFO - [2023-05-30 01:25:04,027] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:25:04,093] {logging_mixin.py:115} INFO - [2023-05-30 01:25:04,093] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:25:04,218] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.960 seconds
+[2023-05-30 01:25:34,594] {processor.py:153} INFO - Started process (PID=7307) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:34,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:25:34,601] {logging_mixin.py:115} INFO - [2023-05-30 01:25:34,600] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:36,656] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:25:37,936] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:25:38,225] {logging_mixin.py:115} INFO - [2023-05-30 01:25:38,225] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:25:38,288] {logging_mixin.py:115} INFO - [2023-05-30 01:25:38,286] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:25:38,322] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.741 seconds
+[2023-05-30 01:26:08,670] {processor.py:153} INFO - Started process (PID=7847) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:08,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:26:08,678] {logging_mixin.py:115} INFO - [2023-05-30 01:26:08,677] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:10,755] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:26:12,334] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:12,640] {logging_mixin.py:115} INFO - [2023-05-30 01:26:12,633] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:26:12,732] {logging_mixin.py:115} INFO - [2023-05-30 01:26:12,731] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:26:12,778] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.122 seconds
+[2023-05-30 01:26:43,202] {processor.py:153} INFO - Started process (PID=8354) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:43,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:26:43,208] {logging_mixin.py:115} INFO - [2023-05-30 01:26:43,208] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:45,782] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:26:47,697] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:26:48,014] {logging_mixin.py:115} INFO - [2023-05-30 01:26:48,013] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:26:48,078] {logging_mixin.py:115} INFO - [2023-05-30 01:26:48,078] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:26:48,123] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.012 seconds
+[2023-05-30 01:27:18,496] {processor.py:153} INFO - Started process (PID=8885) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:18,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:27:18,505] {logging_mixin.py:115} INFO - [2023-05-30 01:27:18,504] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:21,082] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:27:22,747] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:23,147] {logging_mixin.py:115} INFO - [2023-05-30 01:27:23,146] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:27:23,246] {logging_mixin.py:115} INFO - [2023-05-30 01:27:23,246] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:27:23,303] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.840 seconds
+[2023-05-30 01:27:53,592] {processor.py:153} INFO - Started process (PID=9423) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:53,599] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:27:53,603] {logging_mixin.py:115} INFO - [2023-05-30 01:27:53,603] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:55,690] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:27:57,081] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:27:57,302] {logging_mixin.py:115} INFO - [2023-05-30 01:27:57,301] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:27:57,426] {logging_mixin.py:115} INFO - [2023-05-30 01:27:57,426] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:27:57,467] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.893 seconds
+[2023-05-30 01:28:27,996] {processor.py:153} INFO - Started process (PID=9947) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:28:28,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:28:28,009] {logging_mixin.py:115} INFO - [2023-05-30 01:28:28,008] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:28:30,281] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:28:31,628] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:28:32,334] {logging_mixin.py:115} INFO - [2023-05-30 01:28:32,333] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:28:32,421] {logging_mixin.py:115} INFO - [2023-05-30 01:28:32,421] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:28:32,447] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.683 seconds
+[2023-05-30 01:29:03,064] {processor.py:153} INFO - Started process (PID=10419) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:03,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:29:03,071] {logging_mixin.py:115} INFO - [2023-05-30 01:29:03,070] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:04,728] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:29:06,386] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:06,761] {logging_mixin.py:115} INFO - [2023-05-30 01:29:06,760] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:29:06,885] {logging_mixin.py:115} INFO - [2023-05-30 01:29:06,885] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:29:06,932] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.910 seconds
+[2023-05-30 01:29:37,456] {processor.py:153} INFO - Started process (PID=10917) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:37,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:29:37,461] {logging_mixin.py:115} INFO - [2023-05-30 01:29:37,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:39,271] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:29:41,095] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:29:41,316] {logging_mixin.py:115} INFO - [2023-05-30 01:29:41,316] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:29:41,701] {logging_mixin.py:115} INFO - [2023-05-30 01:29:41,701] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:29:41,744] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.310 seconds
+[2023-05-30 01:30:12,262] {processor.py:153} INFO - Started process (PID=11427) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:12,265] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:30:12,268] {logging_mixin.py:115} INFO - [2023-05-30 01:30:12,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:14,379] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:30:15,909] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:16,147] {logging_mixin.py:115} INFO - [2023-05-30 01:30:16,146] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:30:16,219] {logging_mixin.py:115} INFO - [2023-05-30 01:30:16,218] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:30:16,249] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.997 seconds
+[2023-05-30 01:30:46,697] {processor.py:153} INFO - Started process (PID=11949) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:46,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:30:46,725] {logging_mixin.py:115} INFO - [2023-05-30 01:30:46,725] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:48,794] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:30:50,578] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:30:50,783] {logging_mixin.py:115} INFO - [2023-05-30 01:30:50,782] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:30:50,998] {logging_mixin.py:115} INFO - [2023-05-30 01:30:50,997] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:30:51,085] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.442 seconds
+[2023-05-30 01:31:21,386] {processor.py:153} INFO - Started process (PID=12511) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:31:21,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:31:21,401] {logging_mixin.py:115} INFO - [2023-05-30 01:31:21,401] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:31:23,454] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:31:25,246] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:31:25,578] {logging_mixin.py:115} INFO - [2023-05-30 01:31:25,573] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:31:25,630] {logging_mixin.py:115} INFO - [2023-05-30 01:31:25,630] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:31:25,789] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.435 seconds
+[2023-05-30 01:31:56,077] {processor.py:153} INFO - Started process (PID=13035) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:31:56,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:31:56,089] {logging_mixin.py:115} INFO - [2023-05-30 01:31:56,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:31:58,386] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:31:59,995] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:32:00,354] {logging_mixin.py:115} INFO - [2023-05-30 01:32:00,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:32:00,565] {logging_mixin.py:115} INFO - [2023-05-30 01:32:00,565] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:32:00,603] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.568 seconds
+[2023-05-30 01:32:30,976] {processor.py:153} INFO - Started process (PID=13251) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:32:30,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:32:30,981] {logging_mixin.py:115} INFO - [2023-05-30 01:32:30,981] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:32:31,572] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:32:32,026] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:32:32,121] {logging_mixin.py:115} INFO - [2023-05-30 01:32:32,120] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:32:32,154] {logging_mixin.py:115} INFO - [2023-05-30 01:32:32,154] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:32:32,174] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.209 seconds
+[2023-05-30 01:33:02,522] {processor.py:153} INFO - Started process (PID=13939) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:02,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:33:02,530] {logging_mixin.py:115} INFO - [2023-05-30 01:33:02,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:04,453] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:33:06,444] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:06,773] {logging_mixin.py:115} INFO - [2023-05-30 01:33:06,760] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:33:06,829] {logging_mixin.py:115} INFO - [2023-05-30 01:33:06,829] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:33:06,889] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.402 seconds
+[2023-05-30 01:33:37,228] {processor.py:153} INFO - Started process (PID=15175) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:37,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:33:37,234] {logging_mixin.py:115} INFO - [2023-05-30 01:33:37,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:39,227] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:33:40,691] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:33:41,006] {logging_mixin.py:115} INFO - [2023-05-30 01:33:41,006] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:33:41,131] {logging_mixin.py:115} INFO - [2023-05-30 01:33:41,131] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:33:41,169] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.946 seconds
+[2023-05-30 01:34:11,498] {processor.py:153} INFO - Started process (PID=16422) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:11,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:34:11,508] {logging_mixin.py:115} INFO - [2023-05-30 01:34:11,507] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:13,650] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:34:15,541] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:15,808] {logging_mixin.py:115} INFO - [2023-05-30 01:34:15,805] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:34:15,893] {logging_mixin.py:115} INFO - [2023-05-30 01:34:15,892] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:34:15,948] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.456 seconds
+[2023-05-30 01:34:46,690] {processor.py:153} INFO - Started process (PID=17711) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:46,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:34:46,698] {logging_mixin.py:115} INFO - [2023-05-30 01:34:46,697] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:48,612] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:34:50,217] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:34:50,431] {logging_mixin.py:115} INFO - [2023-05-30 01:34:50,430] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:34:50,494] {logging_mixin.py:115} INFO - [2023-05-30 01:34:50,494] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:34:50,524] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.853 seconds
+[2023-05-30 01:35:20,792] {processor.py:153} INFO - Started process (PID=18943) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:20,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:35:20,803] {logging_mixin.py:115} INFO - [2023-05-30 01:35:20,803] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:22,640] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:35:24,513] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:24,743] {logging_mixin.py:115} INFO - [2023-05-30 01:35:24,737] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:35:24,785] {logging_mixin.py:115} INFO - [2023-05-30 01:35:24,785] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:35:24,828] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.040 seconds
+[2023-05-30 01:35:55,413] {processor.py:153} INFO - Started process (PID=20163) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:55,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:35:55,454] {logging_mixin.py:115} INFO - [2023-05-30 01:35:55,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:57,600] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:35:59,335] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:35:59,611] {logging_mixin.py:115} INFO - [2023-05-30 01:35:59,611] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:35:59,683] {logging_mixin.py:115} INFO - [2023-05-30 01:35:59,672] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:35:59,739] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.372 seconds
+[2023-05-30 01:36:30,234] {processor.py:153} INFO - Started process (PID=21449) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:36:30,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:36:30,246] {logging_mixin.py:115} INFO - [2023-05-30 01:36:30,245] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:36:32,433] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:36:34,052] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:36:34,316] {logging_mixin.py:115} INFO - [2023-05-30 01:36:34,315] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:36:34,423] {logging_mixin.py:115} INFO - [2023-05-30 01:36:34,423] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:36:34,490] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.262 seconds
+[2023-05-30 01:37:04,825] {processor.py:153} INFO - Started process (PID=22652) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:04,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:37:04,834] {logging_mixin.py:115} INFO - [2023-05-30 01:37:04,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:07,065] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:37:08,411] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:08,672] {logging_mixin.py:115} INFO - [2023-05-30 01:37:08,669] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:37:08,827] {logging_mixin.py:115} INFO - [2023-05-30 01:37:08,827] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:37:08,943] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.123 seconds
+[2023-05-30 01:37:39,328] {processor.py:153} INFO - Started process (PID=23913) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:39,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:37:39,338] {logging_mixin.py:115} INFO - [2023-05-30 01:37:39,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:41,281] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:37:42,950] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:37:43,215] {logging_mixin.py:115} INFO - [2023-05-30 01:37:43,215] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:37:43,261] {logging_mixin.py:115} INFO - [2023-05-30 01:37:43,261] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:37:43,289] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 3.981 seconds
+[2023-05-30 01:38:13,659] {processor.py:153} INFO - Started process (PID=25151) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:13,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:38:13,672] {logging_mixin.py:115} INFO - [2023-05-30 01:38:13,671] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:16,901] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:38:20,307] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:20,562] {logging_mixin.py:115} INFO - [2023-05-30 01:38:20,561] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:38:20,626] {logging_mixin.py:115} INFO - [2023-05-30 01:38:20,626] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:38:20,659] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 7.028 seconds
+[2023-05-30 01:38:51,030] {processor.py:153} INFO - Started process (PID=26391) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:51,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:38:51,063] {logging_mixin.py:115} INFO - [2023-05-30 01:38:51,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:53,441] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:38:55,907] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:38:56,107] {logging_mixin.py:115} INFO - [2023-05-30 01:38:56,106] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:38:56,173] {logging_mixin.py:115} INFO - [2023-05-30 01:38:56,172] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:38:56,231] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.244 seconds
+[2023-05-30 01:39:26,558] {processor.py:153} INFO - Started process (PID=27363) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:39:26,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:39:26,566] {logging_mixin.py:115} INFO - [2023-05-30 01:39:26,565] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:39:27,358] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:39:27,782] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:39:27,867] {logging_mixin.py:115} INFO - [2023-05-30 01:39:27,866] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:39:27,870] {logging_mixin.py:115} INFO - [2023-05-30 01:39:27,870] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:39:27,890] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.371 seconds
+[2023-05-30 01:39:58,325] {processor.py:153} INFO - Started process (PID=27392) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:39:58,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:39:58,330] {logging_mixin.py:115} INFO - [2023-05-30 01:39:58,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:39:59,450] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:40:00,569] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:40:00,815] {logging_mixin.py:115} INFO - [2023-05-30 01:40:00,813] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:40:00,936] {logging_mixin.py:115} INFO - [2023-05-30 01:40:00,936] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:40:00,986] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 2.667 seconds
+[2023-05-30 01:40:31,426] {processor.py:153} INFO - Started process (PID=27412) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:40:31,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:40:31,431] {logging_mixin.py:115} INFO - [2023-05-30 01:40:31,431] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:40:33,872] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:40:35,173] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:40:35,380] {logging_mixin.py:115} INFO - [2023-05-30 01:40:35,380] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:40:35,419] {logging_mixin.py:115} INFO - [2023-05-30 01:40:35,419] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:40:35,452] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.031 seconds
+[2023-05-30 01:41:05,827] {processor.py:153} INFO - Started process (PID=27428) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:05,830] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:41:05,835] {logging_mixin.py:115} INFO - [2023-05-30 01:41:05,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:10,196] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:41:11,491] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:11,622] {logging_mixin.py:115} INFO - [2023-05-30 01:41:11,621] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:41:11,699] {logging_mixin.py:115} INFO - [2023-05-30 01:41:11,699] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:41:11,781] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 5.987 seconds
+[2023-05-30 01:41:42,840] {processor.py:153} INFO - Started process (PID=27444) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:42,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:41:42,864] {logging_mixin.py:115} INFO - [2023-05-30 01:41:42,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:46,104] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:41:50,523] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:41:50,711] {logging_mixin.py:115} INFO - [2023-05-30 01:41:50,711] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:41:50,749] {logging_mixin.py:115} INFO - [2023-05-30 01:41:50,749] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:41:50,775] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 8.052 seconds
+[2023-05-30 01:42:21,496] {processor.py:153} INFO - Started process (PID=27461) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:21,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:42:21,501] {logging_mixin.py:115} INFO - [2023-05-30 01:42:21,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:22,743] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:42:23,363] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:23,438] {logging_mixin.py:115} INFO - [2023-05-30 01:42:23,437] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:42:23,466] {logging_mixin.py:115} INFO - [2023-05-30 01:42:23,466] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:42:23,486] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 2.000 seconds
+[2023-05-30 01:42:53,810] {processor.py:153} INFO - Started process (PID=27477) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:53,813] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:42:53,814] {logging_mixin.py:115} INFO - [2023-05-30 01:42:53,814] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:54,366] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:42:54,755] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:42:54,834] {logging_mixin.py:115} INFO - [2023-05-30 01:42:54,834] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:42:54,866] {logging_mixin.py:115} INFO - [2023-05-30 01:42:54,866] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:42:54,888] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.084 seconds
+[2023-05-30 01:43:25,141] {processor.py:153} INFO - Started process (PID=27493) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:25,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:43:25,145] {logging_mixin.py:115} INFO - [2023-05-30 01:43:25,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:25,702] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:43:26,094] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:26,180] {logging_mixin.py:115} INFO - [2023-05-30 01:43:26,179] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:43:26,210] {logging_mixin.py:115} INFO - [2023-05-30 01:43:26,210] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:43:26,234] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.101 seconds
+[2023-05-30 01:43:56,557] {processor.py:153} INFO - Started process (PID=27509) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:56,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:43:56,569] {logging_mixin.py:115} INFO - [2023-05-30 01:43:56,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:57,181] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:43:57,613] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:43:57,670] {logging_mixin.py:115} INFO - [2023-05-30 01:43:57,670] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:43:57,700] {logging_mixin.py:115} INFO - [2023-05-30 01:43:57,700] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:43:57,727] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.226 seconds
+[2023-05-30 01:44:28,074] {processor.py:153} INFO - Started process (PID=27525) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:44:28,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:44:28,081] {logging_mixin.py:115} INFO - [2023-05-30 01:44:28,080] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:44:31,162] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:44:31,993] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:44:32,083] {logging_mixin.py:115} INFO - [2023-05-30 01:44:32,082] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:44:32,122] {logging_mixin.py:115} INFO - [2023-05-30 01:44:32,122] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:44:32,145] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 4.080 seconds
+[2023-05-30 01:45:02,436] {processor.py:153} INFO - Started process (PID=27541) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:02,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:45:02,443] {logging_mixin.py:115} INFO - [2023-05-30 01:45:02,443] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:03,033] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:45:03,503] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:03,599] {logging_mixin.py:115} INFO - [2023-05-30 01:45:03,598] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:45:03,630] {logging_mixin.py:115} INFO - [2023-05-30 01:45:03,630] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:45:03,657] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.228 seconds
+[2023-05-30 01:45:33,944] {processor.py:153} INFO - Started process (PID=27557) to work on /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:33,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2023-05-30 01:45:33,948] {logging_mixin.py:115} INFO - [2023-05-30 01:45:33,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:34,496] {logging_mixin.py:115} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /root/.kaggle/kaggle.json'
+[2023-05-30 01:45:35,067] {processor.py:651} INFO - DAG(s) dict_keys(['ML_data_pipeline_demo']) retrieved from /opt/airflow/dags/my_dag.py
+[2023-05-30 01:45:35,198] {logging_mixin.py:115} INFO - [2023-05-30 01:45:35,198] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 01:45:35,228] {logging_mixin.py:115} INFO - [2023-05-30 01:45:35,228] {dag.py:2919} INFO - Setting next_dagrun for ML_data_pipeline_demo to None, run_after=None
+[2023-05-30 01:45:35,252] {processor.py:161} INFO - Processing /opt/airflow/dags/my_dag.py took 1.314 seconds
