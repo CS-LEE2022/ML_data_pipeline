@@ -9,7 +9,7 @@
 - Open Airflow UI (localhost:8080/home) after a short period of time (~1 minute), user name and password are both ‘airflow’. Dag id = `ML_data_pipeline_demo` should be deployed, track the dag running as needed 
 - `docker compose down`  # to stop and remove containers/volumes/networks images
 
-# Thoughts behinds each problem
+# Thoughts Behinds Each Problem
 
 Problem 0-4 is integrated as an automated pipeline in a DAG named `ML_data_pipeline_demo`. I defined them as four sequential tasks in my_dag.py.
 
@@ -25,7 +25,7 @@ with DAG(
 ) as dag:
 ```
 
-### Problem 0: Download the Raw Data
+## Problem 0: Download the Raw Data
 
 - Task_id = `download_raw_data`
 - Python module = `tasks/download_raw_data.py`
@@ -34,7 +34,7 @@ To fully automate the data pipeline, I used Kaggle API to download the ETF and s
 For the convenience of testing, I post my personal token here which is usually not the good practice. Please free feel to replace with your own 
 API token.
 
-### Problem 1: Raw Data Processing
+## Problem 1: Raw Data Processing
 
 - Task_id = `process_raw_data`
 - Python module = `tasks/ process_raw_data.py`
@@ -43,7 +43,7 @@ There is a large amount of data files to process, python multiprocessing package
 
 I am testing on a computer with 4 cores in total, 2 cores are used in the multiprocessing. So the ceiling of performance improvement is to reduce the running time by 50%. If the DAG can be tested on a computing resouce with more cores, the it would be much beneficiary from multiprocessing.
 
-### Problem 2: Feature Engineering
+## Problem 2: Feature Engineering
 
 - Task_id = `feature_engineering`
 - Python module: `tasks/ feature_engineering.py`
@@ -59,7 +59,7 @@ To run the unit test, direct to the unittest folder and run the python script `u
 
 <img width="661" alt="unitest_result" src="https://github.com/CS-LEE2022/ML_data_pipeline/assets/42905162/eeff4cff-d128-4051-a4fa-9073d300041b">
 
-### Problem 3: Integrate ML Training
+## Problem 3: Integrate ML Training
 
 - Task_id = `model_training`
 - Python module = `tasks/ ML_model_training_polyreg.py`
@@ -73,7 +73,7 @@ The resulting model is saved as `/data/trained_model/ml_model.pkl`.
 The training metrics (RMSE) is appended to the log file `/data/trained_model/model_training_log.pkl`. Any other metrics, loss or error values can be easily added.
 
 
-### Problem 4: Model Serving
+## Problem 4: Model Serving
 
 I used FastAPI to create the API. To test with the API, direct to the `/other/API` folder in terminal, then:
 
